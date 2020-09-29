@@ -1,0 +1,30 @@
+{
+  "name": "node-js-sample",
+  "version": "0.2.1",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "12.18.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/congphuong1606/servenodejsgetcoinprice"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Mark Pundsack",
+  "contributors": [
+    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
+  ],
+  "license": "MIT"
+}
