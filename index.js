@@ -5,6 +5,7 @@ var app = express()
 app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
+
 let isdone2=true;
 function myTimer2() {
   if(isdone2){
@@ -17,7 +18,8 @@ function myTimer2() {
             .then((response)  =>  {
               isdone2=true;
             }, (error)  =>  {isdone2=true;})  
-        }).catch(function (error) {
+        })
+        .catch(function (error) {
             console.log(error);
             isdone2=true;
         });
@@ -25,7 +27,7 @@ function myTimer2() {
     myTimer2();
   }
 }
-setInterval(myTimer2, 6000);
+setInterval(myTimer2, 15000);
 
 
 
